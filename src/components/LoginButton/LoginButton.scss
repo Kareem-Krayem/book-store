@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,600|Tulpen+One&display=swap');
+
+.loginBtn {
+  background-color: transparent;
+  border: 1px solid rgb(63, 63, 63);
+  width: 10rem;
+  height: 5rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  color: rgb(63, 63, 63);
+  transition: 0.5s;
+  font-family: 'Tulpen One', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+  &:hover {
+    color: #f5f5f5;
+    background-color: rgb(153, 153, 153);
+    border: none;
+  }
+}
